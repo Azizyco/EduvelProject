@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDUVEL - Educational Visual Novel</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/preloader.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+    <p>Loading EDUVEL...</p>
+  </div>
+
+  <!-- Main Content -->
+  <div class="site-wrapper">
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            
+            <h1>EDUVEL</h1>
+          </div>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#intro" class="active">Introduction</a></li>
+              <li><a href="#creators">Creators</a></li>
+              <li><a href="#downloads">Downloads</a></li>
+            </ul>
+          </nav>
+          <div class="header-controls">
+            <button id="theme-toggle" aria-label="Toggle dark/light mode">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun-icon">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon-icon">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+            </button>
+            <button id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#creators">Creators</a></li>
+          <li><a href="#downloads">Downloads</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">EDUVEL <span>Visual Novel Edukasi</span></h1>
+          <p class="hero-subtitle">Interactive Learning through Storytelling</p>
+          <div class="hero-cta">
+            <a href="#downloads" class="btn btn-primary">Download Now</a>
+            <a href="#intro" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="section intro-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Introduction</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="intro-content">
+          <div class="intro-text">
+            <p>Visual novel dalam website ini merupakan salah satu bentuk permainan interaktif yang dirancang khusus sebagai aplikasi pembelajaran informatika untuk jenjang SMA/SMK. Permainan ini dikembangkan menggunakan engine Ren'Py, dengan fokus utama pada pengisahan cerita yang dipadukan dengan grafis menarik, narasi teks, serta elemen audio yang mendukung suasana.</p>
+            
+            <p>Tujuannya adalah memberikan pengalaman belajar yang imersif dan menyenangkan bagi siswa, sekaligus memperkenalkan konsep-konsep informatika secara kontekstual dan menarik. Berbeda dari visual novel konvensional, visual novel ini memuat alur cerita yang mengandung materi pembelajaran informatika, seperti pengenalan perangkat keras, perangkat lunak, internet, algoritma dasar, dan sebagainya.</p>
+            
+            <p>Dalam perjalanan cerita, pemain tidak hanya mengikuti narasi sebagai protagonis, tetapi juga dihadapkan pada kuis interaktif yang menguji pemahaman materi, serta permainan puzzle edukatif sebagai bentuk tantangan yang memperkuat keterlibatan dan pemahaman.</p>
+            
+            <p>Sebagai bagian dari fiksi interaktif, visual novel ini memungkinkan pemain membuat keputusan melalui pilihan dialog dan aksi yang berdampak langsung pada jalannya cerita, hubungan antar karakter, hingga ending yang diperoleh. Elemen interaktif ini menjadikan pembelajaran lebih dinamis, personal, dan bermakna.</p>
+            
+            <p>Untuk mendukung aksesibilitas dan fleksibilitas penggunaan, visual novel ini tersedia dalam beberapa platform, yaitu: versi Desktop, versi Android, dan versi Web (beta) tanpa instalasi. Dengan pendekatan pembelajaran berbasis cerita dan interaktivitas, visual novel ini diharapkan mampu meningkatkan minat belajar peserta didik terhadap mata pelajaran informatika serta menumbuhkan kemampuan berpikir kritis dan pengambilan keputusan.</p>
+          </div>
+          <div class="intro-features">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <h3>Storytelling</h3>
+              <p>Narrative-driven learning through engaging stories</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                </svg>
+              </div>
+              <h3>Interactive</h3>
+              <p>Make choices that affect the story outcome</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+              </div>
+              <h3>Educational</h3>
+              <p>Learn informatics concepts through gameplay</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3>Multi-platform</h3>
+              <p>Available on Desktop, Android and Web</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Creators Section -->
+    <section id="creators" class="section creators-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Creator Team</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="creators-carousel-container">
+          <button class="carousel-arrow prev" aria-label="Previous creator">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          
+          <div class="creators-carousel">
+            <div class="creator-card active">
+              <div class="creator-image">
+                <img src="Asset/mft.png" alt="Muhammad Miftah Nur Azizy">
+              </div>
+              <div class="creator-info">
+                <h3>Muhammad Miftah Nur Azizy</h3>
+                <p class="creator-nim">NIM: 23050530035</p>
+                <p class="creator-program">Prodi: Pendidikan Teknik Informatika UNY</p>
+                <p class="creator-year">Angkatan 2023</p>
+                <p class="creator-role">Jobdesk: Leader/Desainer/Coding</p>
+              </div>
+            </div>
+            
+            <div class="creator-card">
+              <div class="creator-image">
+                <img src="Asset/ndt.png" alt="Anggota Kedua">
+              </div>
+              <div class="creator-info">
+                <h3>Anggota Kedua</h3>
+                <p class="creator-nim">NIM: 23050530036</p>
+                <p class="creator-program">Prodi: Pendidikan Teknik Informatika UNY</p>
+                <p class="creator-year">Angkatan 2023</p>
+                <p class="creator-role">Jobdesk: Content Writer/Designer</p>
+              </div>
+            </div>
+            
+            <div class="creator-card">
+              <div class="creator-image">
+                <img src="Asset/tgr.png" alt="Anggota Ketiga">
+              </div>
+              <div class="creator-info">
+                <h3>Anggota Ketiga</h3>
+                <p class="creator-nim">NIM: 23050530037</p>
+                <p class="creator-program">Prodi: Pendidikan Teknik Informatika UNY</p>
+                <p class="creator-year">Angkatan 2023</p>
+                <p class="creator-role">Jobdesk: Programmer/Tester</p>
+              </div>
+            </div>
+            
+            <div class="creator-card">
+              <div class="creator-image">
+                <img src="Asset/fir.png" alt="Anggota Keempat">
+              </div>
+              <div class="creator-info">
+                <h3>Anggota Keempat</h3>
+                <p class="creator-nim">NIM: 23050530038</p>
+                <p class="creator-program">Prodi: Pendidikan Teknik Informatika UNY</p>
+                <p class="creator-year">Angkatan 2023</p>
+                <p class="creator-role">Jobdesk: UI/UX Designer</p>
+              </div>
+            </div>
+            
+            <div class="creator-card">
+              <div class="creator-image">
+                <img src="Asset/chs.png" alt="Anggota Kelima">
+              </div>
+              <div class="creator-info">
+                <h3>Anggota Kelima</h3>
+                <p class="creator-nim">NIM: 23050530039</p>
+                <p class="creator-program">Prodi: Pendidikan Teknik Informatika UNY</p>
+                <p class="creator-year">Angkatan 2023</p>
+                <p class="creator-role">Jobdesk: Game Writer/Asset Creator</p>
+              </div>
+            </div>
+          </div>
+          
+          <button class="carousel-arrow next" aria-label="Next creator">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+        
+        <div class="carousel-indicators">
+          <span class="indicator active" data-index="0"></span>
+          <span class="indicator" data-index="1"></span>
+          <span class="indicator" data-index="2"></span>
+          <span class="indicator" data-index="3"></span>
+          <span class="indicator" data-index="4"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section id="downloads" class="section downloads-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Download Visual Novel</h2>
+          <div class="section-line"></div>
+        </div>
+        
+        <div class="vn-selector">
+          <button class="vn-selector-btn active" data-vn="sma-x">Aplikasi Visual Novel SMA Kelas X</button>
+          <button class="vn-selector-btn" data-vn="dkv-x">Aplikasi Visual Novel DKV SMK Kelas X</button>
+          <button class="vn-selector-btn" data-vn="sma-xii">Aplikasi Visual Novel SMA Kelas XII</button>
+        </div>
+        
+        <div class="downloads-container">
+          <div class="download-card">
+            <div class="download-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3>Versi Desktop</h3>
+            <p>Versi lengkap untuk komputer Windows, macOS, atau Linux.</p>
+            <div class="download-instructions">
+              <h4>Cara Install:</h4>
+              <ol>
+                <li>Download file installer (.zip)</li>
+                <li>Ekstrak file ke lokasi yang diinginkan</li>
+                <li>Jalankan file EDUVEL.exe (Windows) atau EDUVEL.app (macOS)</li>
+                <li>Jika muncul peringatan SmartScreen, klik "More info" dan "Run anyway"</li>
+              </ol>
+              <p class="requirements">Syarat: Windows 7+ atau macOS 10.12+</p>
+            </div>
+            <a href="#" class="btn btn-primary download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+          </div>
+          
+          <div class="download-card">
+            <div class="download-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3>Versi Android</h3>
+            <p>Versi mobile untuk perangkat Android.</p>
+            <div class="download-instructions">
+              <h4>Cara Install:</h4>
+              <ol>
+                <li>Download file APK</li>
+                <li>Aktifkan "Sumber Tidak Dikenal" di pengaturan keamanan</li>
+                <li>Buka file APK yang sudah didownload</li>
+                <li>Ikuti instruksi instalasi</li>
+                <li>Buka aplikasi EDUVEL dari launcher</li>
+              </ol>
+              <p class="requirements">Syarat: Android 5.0+ (Lollipop)</p>
+            </div>
+            <a href="#" class="btn btn-primary download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download APK
+            </a>
+          </div>
+          
+          <div class="download-card">
+            <div class="download-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3>Versi Web (Beta)</h3>
+            <p>Mainkan langsung di browser tanpa perlu instalasi.</p>
+            <div class="download-instructions">
+              <h4>Cara Bermain:</h4>
+              <ol>
+                <li>Klik tombol "Play Online" di bawah</li>
+                <li>Tunggu game dimuat (perlu koneksi internet)</li>
+                <li>Mainkan game langsung di browser Anda</li>
+                <li>Simpan sebagai bookmark untuk akses cepat</li>
+              </ol>
+              <p class="requirements">Syarat: Browser modern (Chrome, Firefox, Edge, Safari)</p>
+            </div>
+            <a href="#" class="btn btn-primary download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              Play Online
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+      
+          <p class="copyright">&copy; 2025 EDUVEL Kelompok 3. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/preloader.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/creators-carousel.js"></script>
+  <script src="js/vn-selector.js"></script>
+</body>
+</html>
