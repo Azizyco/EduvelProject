@@ -944,3 +944,10 @@ a:hover {
     align-items: stretch;
   }
 }
+
+@media (max-width: 320px) {
+  .creators-carousel{
+    height: 630px;
+  }
+
+}
